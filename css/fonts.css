@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Josefin Slab'), local('JosefinSlab'), url("../css/46aYWdgz-1oFX11flmyEfaRDOzjiPcYnFooOUGCOsRk.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Josefin Slab Bold'), local('JosefinSlab-Bold'), url("../css/NbE6ykYuM2IyEwxQxOIi2BAPw1J91axKNXP_-QX9CC8.woff") format('woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url("../css/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff") format('woff');
+}
