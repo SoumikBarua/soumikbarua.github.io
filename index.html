@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
 <html>
-	<head>
-		<title>Soumik Barua</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+  <head>
+    <title>Soumik Barua</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="css/custom-styles.css" media="screen">
     <link rel="stylesheet" href="css/fonts.css" media="screen">
     <link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
@@ -23,8 +23,8 @@
       ga('send', 'pageview');
 
     </script>
-	</head>
-	<body>
+  </head>
+  <body>
 
         <!-- Carousel -->
           <div id="myCarousel" class="carousel slide" data-interval="false" data-wrap="false">
@@ -40,6 +40,7 @@
                   <div class="item dark-background active">
                     <div class="container">
                       <h1 class="home-heading-position"><strong>Soumik Barua</strong></h1>
+                      <h2 class="home-subheading-position">iOS Developer</h2>
 
                       <div class="icons">
                         <a href="https://www.linkedin.com/in/soumikbarua" class="fa fa-linkedin-square fa-2x social-media" id="linkedin"></a>
@@ -75,22 +76,8 @@
                         <img src="images/snowboarding.jpg" height="80" width="80">
                       </div> -->
 
-                      <div class="heading-position">
-						<img src="images/powerlifting.png" class="thumbnails">
-				      </div>
                       <h3 class="caption-position">
-                        Hey there! My name is Soumik, and I am from the Bronx, NY. After high school, I headed over to Long Island to attend Stony Brook University. I'm currently completing my bachelor's degree in Computer Science. Outside of school, I enjoy powerlifting and have a fascination with penmanship! The rest of my spare time, I enjoy reading Sherlock Holmes, casual basketball games, and most types of music.
-                      </h3>
-                      <div class="heading-position">
-						<img src="images/penmanship.jpg" class="thumbnails">
-				      </div>
-				      <h3 class="caption-position">
-                        "                                                            
-
-
-
-
-                        "
+                        Hey there! My name is Soumik, and I am from the Bronx, NY. After high school, I headed over to Stony Brook University to pursue my degree in computer science. Outside of school and working on iOS projects, I like spending time with friends and powerlifting. In 2019, I ran my first Spartan race, the Beast, and plan on completing The Trifecta this year!
                       </h3>
 
                       
@@ -112,10 +99,13 @@
                     <div class="container">
                       <h1 class="heading-position"><strong>Experience</strong></h1>
                       <h3 class="caption-position">
-                        In <b>Fall & Spring 2016</b>, I participated under the <b>Humanities Department</b> as a <b>Research Assistant</b> and presented to faculty members.
+                        In <b>summer of 2017</b>, I was an <b>ice cream server</b> at <b>Ice & Vice</b>'s Greeley Square and Times Square locations.
                       </h3>
                       <h3 class="caption-position">
-                        In <b>Summer 2015</b>, I was a part of <b>UEAA</b> as an <b>instructor</b> for American Sign Language course.
+                        In <b>fall & spring of 2016</b>, I participated under the <b>Humanities Department</b> as a <b>Research Assistant</b> and presented to faculty members.
+                      </h3>
+                      <h3 class="caption-position">
+                        In <b>summer of 2015</b>, I was a part of <b>UEAA</b> as an <b>assistant instructor</b> for American Sign Language course.
                       </h3>
 
                 <!-- Push menu button -->
@@ -134,29 +124,71 @@
                   <div class="item light-background">
                     <div class="container wide">
                       <h1 class="heading-position" style="margin-bottom: 0;"><strong>Projects</strong></h1>
-                      <h3 class="caption-position projects-info">
+                      <div class="caption-position projects-info">
 
                         <div class="row">
-                          <div class="col-sm-4">
-                            <a href="http://www.stonybrookakpsi.org/">
-                              <img src="images/stonyakpsi.png" class="project-thumbnail">
+                          <div class="col-sm-8">
+                            <a href="https://github.com/SoumikBarua/Gramming">
+                              <img src="images/gramming.png" class="project-thumbnail">
                             </a>
                             <div class="project-caption">
-                              <span><a href="http://stonybrookakpsi.org/" class="hyperlink">Alpha Kappa Psi</a></span><br />
-                              Online platform for my professional business fraternity at Stony Brook
+                              <span><a href="https://github.com/SoumikBarua/Gramming" class="hyperlink">Gramming iOS App (click for a Github walkthrough)</a></span><br />
+                              A simple social media like app using Firebase
                             </div>
                           </div>
-                          <div class="col-sm-4">
-                          	<a href="https://soumikbarua.github.io/images/resume.pdf">
-                          		<img src="images/resume.png" class="project-thumbnail">
-                          	</a>
-                          	<div class="project-caption">
-                          	  <span><a href="https://soumikbarua.github.io/images/resume.pdf" class="hyperlink">Resume</a></span><br />
-                          	  Click the image download!
-                          	</div>
+                          <div class="col-sm-3">
+                            <a href="https://github.com/SoumikBarua/Contacts">
+                              <img src="images/contacts.png" class="project-thumbnail">
+                            </a>
+                            <div class="project-caption">
+                              <span><a href="https://github.com/SoumikBarua/Contacts" class="hyperlink">Contacts iOS App (click for a Github walkthrough)</a></span><br />
+                              A visual contacts scroll app
+                            </div>
                           </div>
                         </div>
-                      </h3>
+
+                        <div class="row">
+                          <div class="col-sm-3">
+                            <a href="https://github.com/SoumikBarua/Photorama">
+                              <img src="images/photorama.png" class="project-thumbnail">
+                            </a>
+                            <div class="project-caption">
+                              <span><a href="https://github.com/SoumikBarua/Photorama" class="hyperlink">Photorama iOS App (click for a Github walkthrough)</a></span><br />
+                              A photo viewing app using Flickr API
+                            </div>
+                          </div>
+                          <div class="col-sm-3">
+                            <a href="https://github.com/SoumikBarua/Homepwner">
+                              <img src="images/homepwner.png" class="project-thumbnail">
+                            </a>
+                            <div class="project-caption">
+                              <span><a href="https://github.com/SoumikBarua/Homepwner" class="hyperlink">Homepwner iOS App (click for a Github walkthrough)</a></span><br />
+                              An item list app
+                            </div>
+                          </div>
+
+                          <div class="col-sm-3">
+                            <a href="https://github.com/SoumikBarua/WorldTrotter">
+                              <img src="images/worldtrotter.png" class="project-thumbnail">
+                            </a>
+                            <div class="project-caption">
+                              <span><a href="https://github.com/SoumikBarua/WorldTrotter" class="hyperlink">WorldTrotter iOS App (click for a Github walkthrough)</a></span><br />
+                              A temperature conversion app, with a map view and a web view
+                            </div>
+                          </div>
+
+                          <div class="col-sm-3">
+                            <a href="https://github.com/SoumikBarua/TouchTracker">
+                              <img src="images/touchtracker.png" class="project-thumbnail">
+                            </a>
+                            <div class="project-caption">
+                              <span><a href="https://github.com/SoumikBarua/TouchTracker" class="hyperlink">TouchTracker iOS App (click for a Github walkthrough)</a></span><br />
+                              A playful touch-based drawing app
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
 
                 <!-- Push menu button -->
                       <div class="main">
@@ -230,5 +262,5 @@
           <script src="js/bootstrap.min.js"></script>
           <script src="js/custom-scripts.js"></script>
           <script src="components/classie/classie.js"></script>
-	</body>
+  </body>
 </html>

@@ -99,6 +99,16 @@ html, body {
   font-weight: 700;
 }
 
+.home-subheading-position {
+	position: static;
+	margin: 0 auto 0 auto;
+	padding-top: 0.5em;
+	text-align: center;
+	font-size: 200%;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 100;
+}
+
 .thumbnails {
 	text-align: center;
 	margin: 0 0 10px 0;
